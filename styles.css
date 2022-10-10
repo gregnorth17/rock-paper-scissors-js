@@ -212,11 +212,6 @@ h1 {
 	color: var(--header-outline);
 }
 
-/* .winner {
-	box-shadow: 0 0 0 20px #293251, 0 0 0 40px #232c4b, 0 0 0 60px #1e2949;
-	opacity: 1;
-} */
-
 @media (min-width: 1200px) {
 
 	body {
@@ -240,7 +235,6 @@ h1 {
 
 	.score-text {
 		font-size: 1.5rem;
-		/* line-height: 1; */
 	}
 
 	.score {
@@ -269,7 +263,6 @@ h1 {
 	}
 
 	.game-container {
-		/* max-width: 700px; */
 		height: 415px;
 	}
 
@@ -299,11 +292,6 @@ h1 {
 		height: 200px;
 	}
 
-	/* .wrapper .wrapper-winner {
-		width: 200px;
-		height: 200px;
-	} */
-
 	.user,
 	.house {
 		display: flex;
@@ -327,8 +315,6 @@ h1 {
 	.result {
 		order: 1;
 		align-self: center;
-		/* margin: 0 5em; */
-		/* padding: 0 5em; */
 	}
 
 	.result-message {
@@ -343,8 +329,6 @@ h1 {
 
 	.btn-rules-open {
 		margin: 0 1em 1em auto;
-		/* margin-left: auto; */
-		/* padding: 0 1em 1em 0; */
 	}
 
 	.overlay {
@@ -364,10 +348,8 @@ h1 {
 	}
 
 	.btn-rules-close {
-		/* display: inline-block; */
 		position: absolute;
 		top: 23px;
 		right: 20px;
-		/* order: 2; */
 	}
 }
