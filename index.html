@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
+	<title>Rock, Paper, Scissors</title>
+</head>
+<body>
+	<header>
+		<div class="header-container">
+			<h1 class="title">
+				<span class="title">rock</span>
+				<span class="title">paper</span>
+				<span class="title">scissors</span>
+			</h1>
+			<div class="score-container">
+				<span class="score-text">score</span>
+				<span class="score">0</span>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="btn-container">
+			<button class="btn-circle paper">
+				<div class="wrapper">
+					<img class="btn-image" src="images/icon-paper.svg" alt="">
+				</div>
+			</button>
+			<button class="btn-circle scissors">
+				<div class="wrapper">
+					<img class="btn-image" src="images/icon-scissors.svg" alt="">
+				</div>
+			</button>
+			<button class="btn-circle rock">
+				<div class="wrapper">
+					<img class="btn-image" src="images/icon-rock.svg" alt="">
+				</div>
+			</button>
+		</div>
+		<div class="game-container">
+			<div class="user">
+				<button class="btn-circle user-choice">
+					<div class="user-choice-wrapper">
+						<img class="user-choice-image btn-image" src="images/icon-paper.svg" alt="">
+					</div>
+				</button>
+				<p class="choice">you picked</p>
+			</div>
+			<div class="house">
+				<button class="btn-circle house-choice house-choice-shadow">
+					<div class="house-choice-wrapper">
+						<img class="house-choice-image btn-image" src="" alt="">
+					</div>
+				</button>
+				<p class="choice">the house picked</p>
+			</div>
+			<div class="result">
+				<h2 class="result-message">you lose</h2>
+				<button class="play-again">play again</button>
+			</div>
+		</div>
+		<button class="btn-rules-open">rules</button>
+		<div class="overlay">
+			<div class="rules">
+				<h2 class="rules-title">rules</h2>
+				<img class="rules-image" src="images/image-rules.svg" alt="rules">
+				<button class="btn-rules-close" class="">X</button>
+			</div>
+		</div>
+	</main>
+	<script src="index.js"></script>
+</body>
+</html>
